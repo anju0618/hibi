@@ -1,0 +1,79 @@
+{
+  "location": "最寄りのジム(例)",
+  "profile": {
+    "目標": "体重を増やして筋肉をつける(例)",
+    "身長": "170cm(例)"
+  },
+  "progression_rules": [
+    "全セットが目標回数に届いたら次回 +2.5kg",
+    "2回続けて届かなければ据え置き"
+  ],
+  "injuries": [
+    "例: 腰に違和感があるときはデッドリフトを軽くする"
+  ],
+  "current_program": {
+    "rotation_rule": "Push→Pull→Legs の順に、行けた日に進める(曜日では固定しない)",
+    "rotation": [
+      "push",
+      "pull",
+      "legs"
+    ],
+    "push": {
+      "label": "Push(胸・肩・三頭)",
+      "exercises": [
+        {
+          "name": "ベンチプレス",
+          "kg": 30,
+          "reps": "8-10",
+          "sets": 3,
+          "status": "最初の重さ"
+        },
+        {
+          "name": "ショルダープレス",
+          "kg": 20,
+          "reps": "8-10",
+          "sets": 3,
+          "status": "最初の重さ"
+        }
+      ]
+    },
+    "pull": {
+      "label": "Pull(背中・二頭)",
+      "exercises": [
+        {
+          "name": "ラットプルダウン",
+          "kg": 35,
+          "reps": "8-10",
+          "sets": 3,
+          "status": "最初の重さ"
+        },
+        {
+          "name": "シーテッドロー",
+          "kg": 30,
+          "reps": "8-10",
+          "sets": 3,
+          "status": "最初の重さ"
+        }
+      ]
+    },
+    "legs": {
+      "label": "Legs(脚)",
+      "exercises": [
+        {
+          "name": "レッグプレス",
+          "kg": 60,
+          "reps": "10-12",
+          "sets": 3,
+          "status": "最初の重さ"
+        },
+        {
+          "name": "レッグカール",
+          "kg": 25,
+          "reps": "10-12",
+          "sets": 3,
+          "status": "最初の重さ"
+        }
+      ]
+    }
+  }
+}
